@@ -1,0 +1,7 @@
+# Use the versions supported by your ChipWhisperer installation.
+# Python >= 3.10 is required by these capture modules.
+numpy>=1.24
+tqdm>=4.64
+chipwhisperer
+jupyterlab
+ipykernel

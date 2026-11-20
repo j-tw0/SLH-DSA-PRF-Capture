@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository in academic work, please cite the associated
+  Cryptology ePrint Archive paper given in preferred-citation.
+type: software
+title: "SLH-DSA PRF Power Trace Capture (ChipWhisperer)"
+authors:
+  - name: "SLH-DSA PRF Capture contributors"
+repository-code: "https://github.com/j-tw0/SLH-DSA-PRF-Capture"
+url: "https://github.com/j-tw0/SLH-DSA-PRF-Capture"
+abstract: >-
+  Research software for ChipWhisperer acquisition of power traces from
+  address-based SLH-DSA PRF operations. Includes random-address, message-driven signing-order, and
+  key-generation WOTS_PRF sequence capture workflows and target firmware.
+keywords:
+  - SLH-DSA
+  - side-channel analysis
+  - power trace capture
+  - ChipWhisperer
+preferred-citation:
+  type: generic
+  title: "Correlation Power Analysis on SHA-2-Based SLH-DSA"
+  authors:
+    - given-names: "Jinwook"
+      family-names: "Chang"
+    - given-names: "Minjeong"
+      family-names: "Lee"
+    - given-names: "JIN YONG"
+      family-names: "MIN"
+    - given-names: "Dong-Guk"
+      family-names: "Han"
+  year: 2026
+  date-published: "2026-11-04"
+  collection-title: "Cryptology ePrint Archive"
+  notes: "Cryptology ePrint Archive, Paper 2026/2753 (preprint)"
+  url: "https://eprint.iacr.org/2026/2753"

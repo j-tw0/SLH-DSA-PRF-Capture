@@ -1,0 +1,62 @@
+# Private captures and generated outputs
+results/
+data/
+output/
+outputs/
+traces/
+build_artifacts/
+BUILD_ARCHIVE/
+**/seed_*/
+**/signature_*/
+**/shared_secret_seeds*.json
+**/derived_pk_root_seed_*.json
+**/all_params_opts_capture_progress.json
+**/random_message_signature*_capture_progress.json
+**/*capture_manifest.json
+**/*capture_config.json
+**/*build_config*.json
+**/*build_manifest*.json
+**/*capture_summary*.json
+
+# Binary measurement data and compiled firmware
+*.npy
+*.npz
+*.cw
+*.cwp
+*.h5
+*.hdf5
+*.bin
+*.elf
+*.hex
+*.lss
+*.map
+*.lst
+*.log
+*.zip
+
+# Keys, secrets, machine-specific environment configuration
+.env
+.env.*
+!.env.example
+*secret*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+config.local.*
+
+# Python and Jupyter byproducts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Key-generation experiment output (in addition to generic seed_*/ and results/)
+SLH_DSA_Keygen_Captures/
+**/SLH_DSA_*_keygen_prf_sequence/
+**/keygen_batch_summary.json
+**/keygen_capture_manifest.json
